@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>my title</title>
+	</head>
+  <body>
+<link rel="stylesheet" href="static/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="static/css/muh.css" crossorigin="anonymous">
+  <div id="muhhead">
+  </div>
+  <div id="muhbody" class="container-lg bg-dark p-4 mt-3">
+  fill out the form<br>
+<form class="form-horizontal" action="/action_page.php">
+  <div class="form-group">
+    <label for="uname">admin username:</label>
+    <input type="text" class="login" onfocus="if (value=='muhuser') value='';" onblur="if (value=='muhuser') value='';" id="muhuser" value="muh">
+  </div>
+  <div class="form-group">
+    <label for="pwd">admin password:&nbsp;</label>
+    <input type="password" class="login" onfocus="if (value=='muhpass') value='';" onblur="if (value=='') value='';" id="muhpass">
+  </div>
+  <div class="form-group">
+    <label for="tla">TLA:&nbsp;</label>
+    <input type="text" class="login" onfocus="if (value=='TLA') value='';" onblur="if (value=='') value='';" id="muhtla" value="TLA">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+ <div id="muhbox">
+ </div>
+ </div>
+
+  <script src="static/js/muhjs.js"></script>
+  <script src="static/js/topbar.js"></script>
+  </body>
+</html>
